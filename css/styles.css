@@ -1,0 +1,936 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* ------------------------------------------------------------ENCABEZADO------------------------------------------------------------- */
+
+
+.encabezado {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    grid-column: 1/4;
+    grid-template-rows: 1/2;
+    }
+
+.logo_principal_top {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 50vw;
+}
+
+.logomm {
+    width: 60px;
+  }
+
+.titulo_top{
+    color: #000000 ; background-color: #b9a262; 
+    text-align: center;
+    border-bottom: #000000;
+    }
+
+.menu_principal {
+    width: 100%;
+    
+}
+
+.navegacion {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.nav_links li {
+    margin-left: 24px;
+}
+
+.nav_links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000;
+    padding: 8px 70px;
+    transition: background-color 0.3 ease;
+}
+
+.nav_links a:hover{
+    opacity: 2;
+    color: #b9a262;
+}
+.menu_icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: auto;
+    position: relative;
+    z-index: 10;    
+}
+
+.menu_icon .line {
+    width: 40px;
+    height: 3px;
+    background-color: #b9a262;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+#menu_toggle {
+    display: none;
+}
+
+
+
+
+
+/* ------------------------------------------hasta aqui va el diseño del encabezado de mi pagina ------------------------------------------*/
+
+
+
+.titulo_home{
+    font-size: 20px;
+    background-color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    
+
+    
+
+
+/* ----------------DISEÑO MAIN SECCTION--------------- */
+
+.pagina_principal {
+    background-color: #000000;
+    text-align: center;
+    width: 100%;
+    }
+
+.video_promo {
+    width: 80%;
+    margin: 60px 0px 60px 0px;
+    
+    
+    
+  }
+  
+  .foto_grupo {
+    width: 80%;
+    align-items: center;
+    margin: 80px 0px 100px 0px;
+    }
+    
+
+    .parrafo_i {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin: 100px 0px 100px 0px;
+        
+    }
+
+    
+    .parrafo_i h2 {
+        background-color: #b9a262;
+        display: flex;
+        font-size: 40px;
+       
+    }
+    
+
+    .titulo_fiesta {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        grid-column: 1/2;
+        grid-row: 4;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 30px;
+        font-size: 60px;
+    }
+
+ .principal {
+    display: flex;
+    }
+
+   
+.principal p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.principal_foto {
+    background-color: beige;
+    border: 1px solid #ccc;
+    align-items: center;
+    padding: 20px;
+}
+.evento_home{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.privadas_home {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.equipos_home {
+    width: 100%;
+    margin-top: 20px;
+    }
+
+
+
+
+
+
+
+    /* hasta aqui el diseño del video y la foto pantalla principal */
+
+
+
+
+/*--------------------FOOTER----------------  */
+
+footer {
+    background-color: #b9a262;
+   
+    
+}
+
+
+
+
+.footer_all {
+    width: 100%;
+    height: 100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+
+.footer_facebook a{
+    text-decoration: none;
+    padding: 25px;
+    background-color: #b9a262;
+    border-radius: 75%;
+}
+
+.footer_facebook a:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.footer_facebook a:hover i{
+    color: blue;
+    transition: 0.5s;
+}
+
+.footer_instagram a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #b9a262;
+    border-radius: 75%;
+}
+
+.footer_instagram a:hover{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.footer_instagram a:hover i{
+    color: rgb(224, 50, 7);
+    transition: 0.5s;
+}
+
+.footer_youtube a{
+    text-decoration: none;
+    padding: 25px;
+    background-color: #b9a262;
+    border-radius: 95%;
+}
+
+.footer_youtube a:hover{
+    background-color:white;
+    transition: 0.5s;
+}
+
+.footer_youtube a:hover i{
+    color:red;
+    transition: 0.5s;
+}
+
+.footer_whatsapp a{
+    text-decoration: none;
+    padding: 25px;
+    background-color: #b9a262;
+    border-radius: 75%;
+}
+
+.footer_whatsapp a:hover{
+    background-color: white; 
+    transition: 0.5s;
+}
+
+.footer_whatsapp a:hover i{
+    color:green;
+    transition: 0.5s;
+}
+
+
+
+.footer_all i{
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.9;
+}
+
+.footer_all ul {
+        list-style-type: none;
+    }
+
+.footer_all ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    
+    
+}
+
+.footer_all ul li a:hover{
+    opacity: 2;
+    color: white;
+}
+
+.footer_bottom{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.footer_bottom p{
+    color:white;
+    background-color: black;
+}
+
+.designer{
+opacity: 0.7;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: 400;
+margin: 0px 5px;
+}
+/* -----------------Fin del footer------------- */
+
+
+
+
+
+
+
+/* ---------------Horarios.html----------- */
+
+
+
+.titulo_horario {
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor_horarios {
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.img_horario {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15 .5);
+}
+
+
+
+
+
+
+
+/* teams */
+
+.pantalla_principal_teams {
+    display: flex;
+    justify-content: center;
+    
+}
+.video_promo_teams {
+    width: 80%;
+    margin: 60px 0px 60px 0px;
+}
+
+
+
+
+
+
+
+
+/* ----------------- PAGINA CLASES---------- */
+
+
+    
+
+.titulo_clases {
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+.foto_clasespage img{
+    width: 200px;
+    justify-content: flex-start;
+    display: list-item;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+.encabezado {
+    background-color: black; 
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    
+}
+.nav_links a{
+    width: 100%;
+    font-size: 20px;
+    padding: 0;
+}
+
+
+
+.logo_principal_top {
+    width: 60%;
+}
+.titulo_home {
+    font-size: 10px;
+    text-align: center;
+    background-color: white;
+    height: 10vw;
+}
+.video_promo {
+    width: 80vw;
+    margin-bottom: 10px;
+}
+.foto_grupo {
+    width: 80vw;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    }
+
+.parrafo_i {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin: 10px 0px 10px 0px;
+        }
+        .parrafo_i h2 {
+            background-color: white;
+            display: flex;
+            font-size: 20px;
+           }
+           .titulo_fiesta h4 {
+            font-size: 20px;
+            color: white;
+        }
+
+        .titulo_fiesta {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background-color: black;
+            font-size: 20px;
+            grid-column: 1/2;
+            grid-row: 4;
+            width: 100%;
+            height: 50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .principal p{
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .principal_foto {
+            background-color: beige;
+            border: 1px solid #ccc;
+            align-items: center;
+            padding: 10px;
+        }
+        .evento_home{
+            width: 100%;
+            margin: 20px 5px 10px 3px;
+        }
+        
+        .privadas_home {
+            width: 100%;
+            margin: 20px 5px 10px 3px;
+        }
+        
+        
+        .equipos_home {
+            width: 100%;
+            margin: 20px 5px 10px 3px;
+            }
+   
+            .footer_all{
+                width: 100%;
+            height: 80px;   
+            }
+            
+            .footer_all i {
+                font-size: 18px;
+                
+                
+            }
+            .footer_all ul li a{
+                text-decoration: none;
+                font-size: 15px;
+                margin-left: 100px;
+        }
+        .footer_instagram a{
+            padding: 20px;
+        }
+
+        .footer_facebook a{
+            padding: 20px;
+        }
+
+        .footer_youtube a{
+            padding: 20px;
+        }
+
+        .footer_whatsapp a{
+            padding: 20px;
+        }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+    .encabezado {
+        background-color: black; 
+    }
+    
+    .navegacion {
+        padding: 10px;
+        background-color: black;
+        width: 100%;
+    }
+    .menu_icon {
+        display: flex;
+    }
+    .nav_links {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        flex-direction: column;
+        background-color: black;
+        text-align: center;
+        transition: heigth 0.9s ease;
+        z-index: 2;
+    }
+    
+
+    .nav_links li {
+        margin: 0;
+        padding: 20px 0;
+        width: 100%;
+    }
+    
+    .nav_links a{
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 20px;
+        color: white;
+       }
+    
+    #menu_toggle:checked + .menu_icon + .nav_links {
+        height: 100vh;
+        align-items: center;
+        }
+    
+    #menu_toggle:checked + .menu_icon .line:nth-child(1) {
+        transform: rotate(45deg) translate(15px, 3px);
+    }
+    
+    #menu_toggle:checked + .menu_icon .line:nth-child(2) {
+        transform: scale(0);
+    }
+    
+    #menu_toggle:checked + .menu_icon .line:nth-child(3) {
+        transform: rotate(-45deg) translate(15px, -4px);
+    }
+    
+    .logo_principal_top {
+        width: 60%;
+        position: relative;
+        z-index: 1;
+        top: -59px;
+        
+    }
+    .titulo_home {
+        font-size: 8px;
+        text-align: center;
+        background-color: #b9a262;
+        height: 5vw;
+        color: black;
+        position: relative;
+        top: -45px;
+    }
+    .video_promo {
+        width: 80%;
+        position: relative;
+        z-index: 1;
+        top: -80px;
+    }
+    .foto_grupo {
+        width: 80vw;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        top: -95px;
+        }
+    
+    .parrafo_i {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            position: relative;
+            top: -90px;
+            
+            }
+
+    .parrafo_i h2 {
+                background-color: black;
+                display: flex;
+                font-size: 20px;
+                color: white;
+                font-style: normal;
+                font-weight: 100;
+                margin:  40px;
+            }
+
+               .avisos_home {
+                background-color: black;
+               }
+
+        .titulo_fiesta {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: black;
+                grid-column: 1/2;
+                grid-row: 4;
+                width: 100%;
+                margin-top: 0;
+            }
+          
+            .titulo_fiesta{
+                font-size: 20px;
+                color: white;
+            }
+
+
+            .principal p{
+                display: flex;
+                justify-content: center;
+                font-size: 10px;
+                font-weight: bold;
+                color: white;
+            }
+            
+            .principal_foto {
+                background-color: black;
+                border: 1px solid white;
+                align-items: center;
+                padding: 10px;
+            }
+            .evento_home{
+                width: 100%;
+                margin: 20px 5px 10px 3px;
+            }
+            
+            .privadas_home {
+                width: 100%;
+                margin: 20px 5px 10px 3px;
+            }
+            
+            
+            .equipos_home {
+                width: 100%;
+                margin: 20px 5px 10px 3px;
+                }
+       
+                .footer_all{
+                    width: 100%;
+                height: 80px;   
+                }
+                
+                .footer_all i {
+                    font-size: 18px;
+                    
+                    
+                }
+                .footer_all ul li a{
+                    text-decoration: none;
+                    font-size: 15px;
+                   
+            }
+            .footer_instagram a{
+                padding: 10px;
+            }
+    
+            .footer_facebook a{
+                padding: 10px;
+            }
+    
+            .footer_youtube a{
+                padding: 10px;
+            }
+    
+            .footer_whatsapp a{
+                padding: 10px;
+            }
+
+            .footer_bottom {
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 13px;
+            }
+    
+    .titulo_horario {
+        font-size: 30px;
+    }
+    
+        
+
+/* -------------------------------- TEAMS  -------------------------------------------- */
+
+.teams_page {
+    background-color: #000000;
+}
+
+.titulo_clases {
+    font-size: 17px;
+    color: black;
+    background-color: #b9a262;
+    width: 100%;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .video_promo_teams {
+        position: relative;
+        top: -70px;
+        width: 90%;
+    }
+
+.students_team_titulo {
+    color: white;
+    font-size: 20px;
+    
+}
+
+.students_team_parrafo {
+    color: white;
+    font-size: 15px;
+}
+.mambo_magicsemipro_titulo {
+    color: white;
+    font-size: 20px;
+}
+
+.mambo_magicsemipro_parrafo {
+    color: white;
+    font-size: 15px;
+}
+
+.mambo_magicpro_titulo {
+    color: white;
+    font-size: 20px;
+}
+
+.mambo_magicpro_parrafo {
+    color: white;
+    font-size: 15px;
+}
+
+.mambo_magicladies_titulo {
+    color: white;
+    font-size: 20px;
+    }
+
+.mambo_magicladies_parrafo {
+    color: white;
+    font-size: 15px;
+}
+
+
+/* --------------------------------------------------CLASES--------------------------------------------- */
+
+.clases_page {
+    background-color: black;
+}
+
+.curso_absolute_titulo {
+    color: white;
+    font-size: 20px;
+}
+
+.curso_absolute_parrafo {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.mambo_1_titulo {
+    color: white;
+    font-size: 20px;
+}
+
+.mambo_1_parrafo {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.mambo_2_titulo {
+    color: white;
+    font-size: 20px;
+}
+
+.mambo_2_parrafo {
+    color: white;
+    font-size: 13px;
+}
+
+.mambo_3_titulo {
+    color: white;
+    font-size: 20px;
+}
+
+.mambo_3_parrafo {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.ladies_titulo {
+    color: white;
+    font-size: 20px;
+}
+
+.ladies_parrafo {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+
+.special_workshop_titulo {
+    color: white;
+    font-size: 20px;
+}
+
+.special_workshop_parrafo {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.btn-p {
+    background-color: #b9a262 !important;
+}
+
+
+
+/* ----------------------------------------HORARIOS---------------------------------------- */
+
+.horarios_clase {
+    background-color: #000000;    
+}
+
+.titulo_horario {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+}
