@@ -1,0 +1,64 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin fotogrupal {
+    width: 80%;
+    margin-top: 40px;
+}
+
+@mixin fotoactividades {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+@mixin footericono {
+    text-decoration: none;
+    padding: 25px;
+    background-color: #b9a262;
+    border-radius: 75%;
+    &:hover {
+        background-color: white;
+        transition: 0.5s;
+    }
+    a{
+        font-size: 20px;
+    }
+}
+
+@mixin teamstitulo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: $font-stack;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $secondary-color;
+    color: $primary-color;
+}
+
+@mixin teamsparrafo {
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@mixin tituloclaseyteams {
+    font-weight: bold;
+     font-size: 60px;  
+     color: $secondary-color;
+     -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $primary-color;
+}
+
+@mixin imagenhorarios {
+    width: 80vh;
+    border-radius: 1px solid $primary-color;
+    
+}
+

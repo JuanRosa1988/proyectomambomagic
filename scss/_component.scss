@@ -1,0 +1,124 @@
+.titulo_home {
+    @include flex-center;
+    @include tituloclaseyteams;
+
+}
+
+.pantalla_principal {
+    @include flex-center;
+    }
+
+
+.foto_grupo {
+    @include fotogrupal;
+}
+
+
+.parrafo_i {
+    @include flex-center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+
+.evento_home {
+    @include fotoactividades;
+}
+
+
+// footer
+
+.footer_bottom {
+    @include flex-center;
+}
+
+.footer_instagram {
+    @include footericono;
+    
+    i{
+        color: rgb(224, 50, 7);
+        transition: width 0.5s ease, background-color 1s ease;
+}
+}
+
+.footer_facebook {
+    @include footericono;
+
+    i{
+        color: blue;
+     transition: width 0.5s ease, background-color 1s ease;
+    }
+
+}
+
+.footer_youtube {
+    @include footericono;
+
+    i {
+        color:red;
+        transition: width 0.5s ease, background-color 1s ease;
+    }
+}
+
+.footer_whatsapp {
+    @include footericono;
+
+    i{
+        color:green;
+        transition: width 0.5s ease, background-color 1s ease;
+    }
+}
+
+.designer {
+    @include flex-center;
+}
+
+
+
+
+// clases
+
+.titulo_clases {
+    @include flex-center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+// teams
+
+.teams_page {
+    h1{
+    @include flex-center;
+    @include tituloclaseyteams;
+}
+
+    .pantalla_principal_teams {
+    @include flex-center;
+    }
+
+
+    .teams_row {
+        margin-top: 100px;
+        border-top: 1px solid $primary-color;
+        }
+    
+        .teams_titulo {
+            @include teamstitulo;
+        }
+    
+        .teams_parrafo {
+            @include flex-center;
+            @include teamsparrafo;
+        }
+    
+    }
+
+
+
+    //horarios
+.imagenhorario {
+    @include imagenhorarios;
+        
+    }
+
