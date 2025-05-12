@@ -24,13 +24,27 @@
 
 .logomm {
     width: 60px;
+    animation: Logomm 2s infinite;
   }
+  @keyframes Logomm {
+    0% {opacity: 0%;}
+    100% {opacity: 10;}
+}
 
 .titulo_top{
     color: #000000 ; background-color: #b9a262; 
     text-align: center;
     border-bottom: #000000;
-    }
+       }
+
+.titulo_top p{
+    animation: Bienvenidotop 2s infinite;
+}
+
+    @keyframes Bienvenidotop {  
+    0% { opacity: 0%;}
+    100% {opacity: 10;}
+}
 
 .menu_principal {
     width: 100%;
@@ -89,11 +103,6 @@
 #menu_toggle {
     display: none;
 }
-
-
-
-
-
 /* ------------------------------------------hasta aqui va el diseño del encabezado de mi pagina ------------------------------------------*/
 
 
@@ -121,18 +130,10 @@
     width: 100%;
     }
 
-.video_promo {
-    width: 80%;
-    margin: 60px 0px 60px 0px;
-    
-    
-    
-  }
-  
-  .foto_grupo {
+    .foto_grupo {
     width: 80%;
     align-items: center;
-    margin: 80px 0px 100px 0px;
+    margin: 40px 0px 100px 0px;
     }
     
 
@@ -213,15 +214,9 @@
 
 /*--------------------FOOTER----------------  */
 
-footer {
+.footer {
     background-color: #b9a262;
-   
-    
-}
-
-
-
-
+   }
 .footer_all {
     width: 100%;
     height: 100px; 
@@ -232,87 +227,70 @@ footer {
 
     
 }
-
 .footer_facebook a{
     text-decoration: none;
     padding: 25px;
     background-color: #b9a262;
     border-radius: 75%;
 }
-
 .footer_facebook a:hover{
     background-color: white;
     transition: 0.5s;
 }
-
 .footer_facebook a:hover i{
     color: blue;
-    transition: 0.5s;
+     transition: width 0.5s ease, background-color 1s ease;
 }
-
 .footer_instagram a{
     text-decoration: none;
     padding: 20px;
     background-color: #b9a262;
     border-radius: 75%;
 }
-
 .footer_instagram a:hover{
     background-color: white;
     transition: 0.5s;
 }
-
 .footer_instagram a:hover i{
     color: rgb(224, 50, 7);
     transition: 0.5s;
 }
-
 .footer_youtube a{
     text-decoration: none;
     padding: 25px;
     background-color: #b9a262;
     border-radius: 95%;
 }
-
 .footer_youtube a:hover{
     background-color:white;
     transition: 0.5s;
 }
-
 .footer_youtube a:hover i{
     color:red;
     transition: 0.5s;
 }
-
 .footer_whatsapp a{
     text-decoration: none;
     padding: 25px;
     background-color: #b9a262;
     border-radius: 75%;
 }
-
 .footer_whatsapp a:hover{
     background-color: white; 
     transition: 0.5s;
 }
-
 .footer_whatsapp a:hover i{
     color:green;
     transition: 0.5s;
 }
-
-
-
 .footer_all i{
     font-size: 20px;
     color: #000000;
     opacity: 0.9;
 }
-
 .footer_all ul {
         list-style-type: none;
     }
-
 .footer_all ul li a{
     color: #000000;
     text-decoration: none;
@@ -320,12 +298,10 @@ footer {
     
     
 }
-
 .footer_all ul li a:hover{
     opacity: 2;
     color: white;
 }
-
 .footer_bottom{
     background-color: #000000;
     padding: 20px;
@@ -335,7 +311,6 @@ footer {
     color:white;
     background-color: black;
 }
-
 .designer{
 opacity: 0.7;
 text-transform: uppercase;
@@ -461,10 +436,7 @@ h2{
     background-color: white;
     height: 10vw;
 }
-.video_promo {
-    width: 80vw;
-    margin-bottom: 10px;
-}
+
 .foto_grupo {
     width: 80vw;
     align-items: center;
@@ -520,13 +492,13 @@ h2{
             margin: 20px 5px 10px 3px;
         }
         
-        .privadas_home {
+        .evento_home {
             width: 100%;
             margin: 20px 5px 10px 3px;
         }
         
         
-        .equipos_home {
+        .evento_home {
             width: 100%;
             margin: 20px 5px 10px 3px;
             }
@@ -646,12 +618,7 @@ h2{
         position: relative;
         top: -45px;
     }
-    .video_promo {
-        width: 80%;
-        position: relative;
-        z-index: 1;
-        top: -80px;
-    }
+    
     .foto_grupo {
         width: 80vw;
         align-items: center;
@@ -713,20 +680,20 @@ h2{
                 background-color: black;
                 border: 1px solid white;
                 align-items: center;
-                padding: 10px;
+                padding: 5px;
             }
             .evento_home{
                 width: 100%;
                 margin: 20px 5px 10px 3px;
             }
             
-            .privadas_home {
+            .evento_home {
                 width: 100%;
                 margin: 20px 5px 10px 3px;
             }
             
             
-            .equipos_home {
+            .evento_home {
                 width: 100%;
                 margin: 20px 5px 10px 3px;
                 }
@@ -793,123 +760,23 @@ h2{
     align-items: center;
     }
 
-    .video_promo_teams {
-        position: relative;
-        top: -70px;
-        width: 90%;
-    }
-
-.students_team_titulo {
+.teams_titulo {
     color: white;
     font-size: 20px;
     
 }
 
-.students_team_parrafo {
-    color: white;
-    font-size: 15px;
-}
-.mambo_magicsemipro_titulo {
-    color: white;
-    font-size: 20px;
-}
-
-.mambo_magicsemipro_parrafo {
+.teams_parrafo {
     color: white;
     font-size: 15px;
 }
 
-.mambo_magicpro_titulo {
-    color: white;
-    font-size: 20px;
-}
-
-.mambo_magicpro_parrafo {
-    color: white;
-    font-size: 15px;
-}
-
-.mambo_magicladies_titulo {
-    color: white;
-    font-size: 20px;
-    }
-
-.mambo_magicladies_parrafo {
-    color: white;
-    font-size: 15px;
-}
 
 
 /* --------------------------------------------------CLASES--------------------------------------------- */
 
 .clases_page {
     background-color: black;
-}
-
-.curso_absolute_titulo {
-    color: white;
-    font-size: 20px;
-}
-
-.curso_absolute_parrafo {
-    color: white;
-    font-size: 13px;
-    font-weight: 100;
-}
-
-.mambo_1_titulo {
-    color: white;
-    font-size: 20px;
-}
-
-.mambo_1_parrafo {
-    color: white;
-    font-size: 13px;
-    font-weight: 100;
-}
-
-.mambo_2_titulo {
-    color: white;
-    font-size: 20px;
-}
-
-.mambo_2_parrafo {
-    color: white;
-    font-size: 13px;
-}
-
-.mambo_3_titulo {
-    color: white;
-    font-size: 20px;
-}
-
-.mambo_3_parrafo {
-    color: white;
-    font-size: 13px;
-    font-weight: 100;
-}
-
-.ladies_titulo {
-    color: white;
-    font-size: 20px;
-}
-
-.ladies_parrafo {
-    color: white;
-    font-size: 13px;
-    font-weight: 100;
-}
-
-
-.special_workshop_titulo {
-    color: white;
-    font-size: 20px;
-}
-
-.special_workshop_parrafo {
-    color: white;
-    font-size: 13px;
-    font-weight: 100;
 }
 
 .btn-p {
@@ -928,9 +795,4 @@ h2{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-
-
-
-
 }

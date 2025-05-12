@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mambo Magic Dance Academy</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="scss/style.css">
 </head>
 
 <body>
     
-    <header class="encabezado grid__setter">
+    <div class="grid_clase">
+
+    <header class="encabezado">
+        <div class="titulo_top col-12">
+            <p>Bienvenidos a la Universidad del Mambo</p>
+        </div>
         
-        <p class="titulo_top">Bienvenidos a la Universidad del Mambo</p>
     
-        
-        
-        <nav class="navegacion">
+        <div class="col-12">
+        <nav class="navegacion col-12">
         
             <input type="checkbox" id="menu_toggle">
         <label for="menu_toggle" class="menu_icon">
@@ -29,15 +33,19 @@
         </label>
             
         <ul class="nav_links">
-                <li><img src="./assets/logomm.png" class="logomm" alt=""></li> 
+                <li><img src="assets/logomm.png" class="logomm" alt=""></li> 
                 <li><a href="pages/horarios.html">Horarios</a></li> 
                 <li><a href="pages/clases.html">Clases</a></li>
                 <li><a href="pages/privadas.html">Privadas</a></li> 
                 <li><a href="pages/teams.html">Teams</a></li> 
                 <li><a href="pages/contacto.html">Contacto</a> </li>
-            </li>
-        </ul>
-    </nav>    
+            </ul>
+    </nav>
+        
+    
+    
+    
+    
     <div class="logo_principal">
             <img src="assets/banner web.png" class="logo_principal_top" alt="">
             
@@ -53,6 +61,8 @@
         
         <div class="titulo_home">
         <h1>COMIENZA A BAILAR MAMBO CON NOSOTROS </h1>
+
+       
         
     </div>
     
@@ -60,10 +70,6 @@
         
             <img src="assets/grupo home.png" class="foto_grupo" alt="Foto Grupo">
         
-        <div class="mambomagic">
-        
-            <img src="assets/grupo home.png" class="foto_grupo" alt="Foto Grupo">
-            </div>
     </div>
 
     <div class="parrafo_i">   
@@ -93,11 +99,11 @@
             
             <div class="principal_foto"> <p>Agenda tu clase Privada </p>
             <a href="./pages/privadas.html">    
-            <img src="./assets/privadas.jpg" class="privadas_home" alt=""> </a> </div>
+            <img src="./assets/privadas.jpg" class="evento_home" alt=""> </a> </div>
         
             <div class="principal_foto"> <p>Sumate a nuestros equipos</p>
             <a href="./pages/teams.html">
-            <img src="./assets/Unete a nuestros equipos.jpg" class="equipos_home" alt=""> </a> </div>    
+            <img src="./assets/Unete a nuestros equipos.jpg" class="evento_home" alt=""> </a> </div>    
         </div>
 
         
